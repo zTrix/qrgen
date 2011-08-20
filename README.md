@@ -18,7 +18,10 @@ QR Gen 是一个简单的 QR 码生成器，能生成纯文本、通讯录、名
 * 分享功能，生成的 QR 码可以选择分享，通过蓝牙，邮件等方式分享给他人。
 
 ## 下载
-见 [qrgen.apk](https://github.com/downloads/zTrix/qrgen/qrgen.apk)
+[qrgen.apk](https://github.com/downloads/zTrix/qrgen/qrgen.apk)
+
+## 支持的 Android 版本
+Android 2.2 或更高, 低版本的没有测试过
 
 ## 使用的开源库：zxing 
 http://code.google.com/p/zxing/
