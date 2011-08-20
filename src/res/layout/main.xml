@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<ScrollView android:id="@+id/outer_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+<LinearLayout
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<TextView android:layout_width="fill_parent"
+			android:textSize="30sp" android:gravity="center_vertical|center_horizontal"
+			android:layout_height="wrap_content" android:text="@string/title" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent" android:layout_marginTop="40px"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="center_vertical"
+		android:textSize="18sp" android:text="@string/tips_text"/>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<EditText android:id="@+id/input_text" android:lines="1"
+			android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+		<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="right">	
+		<Button android:layout_width="80px"
+			android:layout_height="wrap_content" android:text="@string/button_gen"
+			android:layout_marginRight="15px"
+			android:id="@+id/gen_button" />
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_marginTop="40px"
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/contact_button" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/button_share_contact" />
+		<Button android:id="@+id/clipboard_button"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="@string/button_share_clipboard" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/card_button" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/button_label_card" />
+		<Button android:id="@+id/bkmk_button"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="@string/button_label_bkmk" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/date_button" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/button_label_date" />
+		<Button android:id="@+id/wifi_button"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="@string/button_label_wifi" />
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:orientation="horizontal">
+		<Button android:id="@+id/app_button" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:text="@string/button_label_app" />
+		<Button android:id="@+id/sms_button"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="1" android:text="@string/button_label_sms" />
+	</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

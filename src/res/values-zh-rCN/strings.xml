@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title">QR码生成器</string>
+	<string name="tips_text">键入文字，生成QR码</string>
+	<string name="app_name">QR Gen</string>
+	<string name="button_share_contact">从通讯录生成</string>
+	<string name="button_share_clipboard">从剪切板生成</string>
+	<string name="button_clipboard_empty">剪切板为空</string>
+	<string name="button_gen">生成</string>
+	<string name="button_label_card">生成名片</string>
+	<string name="button_label_sign">生成个性签名</string>
+	<string name="card_title">生成QR码名片</string>
+	<string name="card_name">姓名:</string>
+	<string name="card_phone">电话:</string>
+	<string name="card_email">邮箱:</string>
+	<string name="card_addr">地址:</string>
+	<string name="card_job">职务:</string>
+	<string name="card_com">公司:</string>
+	<string name="card_button_gen_label">生成QR码名片</string>
+	<string name="button_label_date">生成日期</string>
+	<string name="button_label_wifi">生成无线网络</string>
+	<string name="wifi_title">生成无线网络QR码</string>
+	<string name="wifi_id">无线网络名称(ESSID):</string>
+	<string name="wifi_pass">无线网络密钥(Key):</string>
+	<string name="wifi_type">无线加密类型:</string>
+	<string name="wifi_button_gen_label">生成Wifi QR码</string>
+	<string name="wifi_choose_type">选择Wifi加密类型</string>
+	<string-array name="wifi_prompt">
+        <item>Wep</item>
+        <item>WPA/WPA2</item>
+        <item>无加密</item>
+    </string-array>
+    <string-array name="weekday">
+    	<item>星期天</item>
+    	<item>星期一</item>
+    	<item>星期二</item>
+    	<item>星期三</item>
+    	<item>星期四</item>
+    	<item>星期五</item>
+    	<item>星期六</item>
+    	<item>星期天</item>
+    </string-array>
+    <string name="button_label_bkmk">生成网络书签</string>
+    <string name="bkmk_title">生成网络书签QR码</string>
+    <string name="bkmk_name">网站名称：</string>
+    <string name="bkmk_url">网址(URL)：</string>
+    <string name="bkmk_note">网站说明：</string>
+    <string name="bkmk_button_gen_label">生成网络书签QR码</string>
+    <string name="bkmk_button_gen_from_user_label">从已有书签生成</string>
+    <string name="button_label_app">生成应用程序</string>
+    <string name="button_label_sms">生成短信</string>
+    <string name="app_picker_name">生成应用程序QR码</string>
+    <string name="msg_loading_sms">收集短信中...</string>
+    <string name="encode_menu_save">保存</string>
+    <string name="msg_unmount_usb">对不起，SD卡暂时无法访问.</string>
+    <string name="history_send">发送历史</string>
+	<string name="history_clear_text">清除历史</string>
+	<string name="history_title">历史记录</string>
+	<string name="history_email_title">QR Gen历史</string>
+	<string name="menu_history">历史</string>
+	<string name="menu_about">关于</string>
+	<string name="title_about">QR Gen</string>
+	<string name="msg_about">QR Gen是一个QR码生成器</string>
+	<string name="author">作者：zTrix \n邮箱：<mailto>zhuwl08@gmail.com</mailto></string>
+	<string name="button_ok">确定</string>
+	<string name="menu_share">分享</string>
+	<string name="qrgen_error">错误</string>
+	<string name="qrgen_ok">确定</string>
+	<string name="bkmk_please_input">请填写网络地址！</string>
+	<string name="wifi_please_input">请填写无线网络名称！</string>
+	<string name="qrgen_please_input">请输入文字来生成QR码。</string>
+	<string name="card_please_input">请至少填写一项来生成QR名片！</string>
+	<string name="clipboard_empty">剪切板为空！</string>
+	<string name="qrgen_year">年</string>
+	<string name="qrgen_month">月</string>
+	<string name="qrgen_day">日</string>
+	<string name="qrgen_week">星期</string>
+	<string name="qrgen_hour">时</string>
+	<string name="qrgen_minute">分</string>
+	<string name="save_suc">保存成功</string>
+	<string name="save_at">QR码成功保存在:</string>
+	<string name="msg_loading_apps">收集应用程序中...\u2026</string>
+	<string name="msg_encode_barcode_failed">无法生成相应QR码</string>
+  <string name="msg_encode_contents_failed">无法从所提供数据生成QR码</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<item type="id" name="contact_button"></item>
+	<item type="id" name="clipboard_button"></item>
+	<item type="id" name="auto_focus" />
+	<item type="id" name="decode" />
+	<item type="id" name="decode_failed" />
+	<item type="id" name="decode_succeeded" />
+	<item type="id" name="encode_failed" />
+	<item type="id" name="encode_succeeded" />
+	<item type="id" name="launch_product_query" />
+	<item type="id" name="quit" />
+	<item type="id" name="restart_preview" />
+	<item type="id" name="input_text" />
+	<item type="id" name="gen_button" />
+	<item type="id" name="card_button" />
+	<item type="id" name="date_button" />
+	<item type="id" name="wifi_button" />
+	<item type="id" name="outer_scroll" />
+	<item type="id" name="card_outer_scroll" />
+	<item type="id" name="wifi_outer_scroll" />
+	<item type="id" name="bkmk_outer_scroll" />
+	<item type="id" name="card_input_name" />
+	<item type="id" name="card_input_phone" />
+	<item type="id" name="card_input_email" />
+	<item type="id" name="card_input_addr" />
+	<item type="id" name="card_input_job" />
+	<item type="id" name="card_input_com" />
+	<item type="id" name="card_gen_button" />
+	<item type="id" name="wifi_input_id" />
+	<item type="id" name="wifi_input_pass" />
+	<item type="id" name="wifi_gen_button" />
+	<item type="id" name="wifi_spinner" />
+	<item type="id" name="bkmk_button" />
+	<item type="id" name="bkmk_input_name" />
+	<item type="id" name="bkmk_input_url" />
+	<item type="id" name="bkmk_input_note" />
+	<item type="id" name="bkmk_gen_button" />
+	<item type="id" name="app_button" />
+	<item type="id" name="sms_button" />
+	<item type="id" name="sms_row_entry" />
+	<item type="id" name="bookmark_title" />
+	<item type="id" name="bookmark_url" />
+	<item type="id" name="bkmk_gen_from_user_button" />
+</resources>

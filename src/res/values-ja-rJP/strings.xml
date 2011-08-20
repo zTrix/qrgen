@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="title">QR码生成器</string>
+	<string name="tips_text">テキストを入力し、QRコードが生成されます</string>
+	<string name="app_name">QR Gen</string>
+	<string name="button_share_contact">電話帳から生成する</string>
+	<string name="button_share_clipboard">クリップボードから生成</string>
+	<string name="button_clipboard_empty">クリップボードは空</string>
+	<string name="button_gen">生成</string>
+	<string name="button_label_card">名刺を生成する</string>
+	<string name="button_label_sign">お好みの署名を生成する</string>
+	<string name="card_title">QRコード名刺を生成する</string>
+	<string name="card_name">前:</string>
+	<string name="card_phone">電話:</string>
+	<string name="card_email">メール:</string>
+	<string name="card_addr">住所	:</string>
+	<string name="card_job">職務:</string>
+	<string name="card_com">会社:</string>
+	<string name="card_button_gen_label">QRコード名刺を生成する</string>
+	<string name="button_label_date">日付を生成する</string>
+	<string name="button_label_wifi">ワイヤレスネットワークを生成する</string>
+	<string name="wifi_title">ワイヤレスネットワークのQRコードを生成する</string>
+	<string name="wifi_id">ワイヤレスネットワークの名前(ESSID):</string>
+	<string name="wifi_pass">ワイヤレスネットワークキー(Key):</string>
+	<string name="wifi_type">無線暗号化の種類:</string>
+	<string name="wifi_button_gen_label">無線LANのQRコードを生成する</string>
+	<string name="wifi_choose_type">選択された無線LANの暗号化タイプ</string>
+	<string-array name="wifi_prompt">
+		<item>Wep</item>
+		<item>WPA/WPA2</item>
+		<item>無暗号化</item>
+	</string-array>
+	<string-array name="weekday">
+		<item>日曜日</item>
+		<item>月曜日</item>
+		<item>火曜日</item>
+		<item>水曜日</item>
+		<item>木曜日</item>
+		<item>金曜日</item>
+		<item>土曜日</item>
+		<item>日曜日</item>
+	</string-array>
+	<string name="button_label_bkmk">ネットワークしおりを生成する</string>
+	<string name="bkmk_title">QRコードは、ブックマークを生成する</string>
+	<string name="bkmk_name">サイト名：</string>
+	<string name="bkmk_url">アドレス(URL)：</string>
+	<string name="bkmk_note">サイトの説明：</string>
+	<string name="bkmk_button_gen_label">QRコードは、ブックマークを生成する</string>
+	<string name="bkmk_button_gen_from_user_label">ブックマークを既存の生成</string>
+	<string name="button_label_app">アプリケーションをビルドします</string>
+	<string name="button_label_sms">メッセージを生成する</string>
+	<string name="app_picker_name">アプリケーションのQRコードを生成する</string>
+	<string name="msg_loading_sms">テキストメッセージのコレクション</string>
+	<string name="encode_menu_save">保存</string>
+	<string name="msg_unmount_usb">すみません、ＳＤメモリーカード当分訪問した</string>
+	<string name="history_send">発送歴史</string>
+	<string name="history_clear_text">歴史を除去して</string>
+	<string name="history_title">歴史に記録され</string>
+	<string name="history_email_title">QR Gen歴史</string>
+	<string name="menu_history">歴史</string>
+	<string name="menu_about">について</string>
+	<string name="title_about">QR Gen</string>
+	<string name="msg_about">QR GenはQRコードジェネレータです</string>
+	<string name="author">著者：zTrix \nイーメール：<mailto>zhuwl08@gmail.com</mailto></string>
+	<string name="button_ok">確定</string>
+	<string name="menu_share">シェア</string>
+	<string name="qrgen_error">エラー</string>
+	<string name="qrgen_ok">確定</string>
+	<string name="bkmk_please_input">ネットワークアドレスを入力してください</string>
+	<string name="wifi_please_input">ワイヤレスネットワークの名前を記入してください</string>
+	<string name="qrgen_please_input">QRコードを生成するためにテキストを入力してください</string>
+	<string name="card_please_input">QRを生成するには、少なくとも1つのビジネスカードに記入してください</string>
+	<string name="clipboard_empty">クリップボードは空です</string>
+	<string name="qrgen_year">年</string>
+	<string name="qrgen_month">月</string>
+	<string name="qrgen_day">日</string>
+	<string name="qrgen_week">曜日</string>
+	<string name="qrgen_hour">時</string>
+	<string name="qrgen_minute">分</string>
+	<string name="save_suc">正常に保存さ</string>
+	<string name="save_at">正常にQRコードに格納されている:</string>
+	<string name="msg_loading_apps">アプリケーションのコレクション\u2026</string>
+	<string name="msg_encode_barcode_failed">QRコードを生成できません。</string>
+	<string name="msg_encode_contents_failed">QRコードから生成されたデータを提供することができません</string>
+</resources>

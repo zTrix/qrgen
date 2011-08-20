@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/card_outer_scroll"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:layout_width="fill_parent"
+					android:textSize="30sp" android:gravity="center_vertical|center_horizontal"
+					android:layout_height="wrap_content" android:text="@string/card_title" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="40px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/card_name" />
+				<EditText android:id="@+id/card_input_name" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/card_phone" />
+				<EditText android:id="@+id/card_input_phone" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/card_email" />
+				<EditText android:id="@+id/card_input_email" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/card_addr" />
+				<EditText android:id="@+id/card_input_addr" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/card_com" />
+				<EditText android:id="@+id/card_input_com" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/card_job" />
+				<EditText android:id="@+id/card_input_job" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+
+			<LinearLayout android:layout_width="fill_parent" android:layout_marginTop="20px"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:gravity="right">
+				<Button android:layout_width="120px" android:layout_height="wrap_content"
+					android:text="@string/card_button_gen_label" android:layout_marginRight="20px"
+					android:id="@+id/card_gen_button" />
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

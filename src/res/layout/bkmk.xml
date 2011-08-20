@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:id="@+id/bkmk_outer_scroll"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="horizontal">
+				<TextView android:layout_width="fill_parent"
+					android:textSize="30sp" android:gravity="center_vertical|center_horizontal"
+					android:layout_height="wrap_content" android:text="@string/bkmk_title" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="40px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/bkmk_name" />
+				<EditText android:id="@+id/bkmk_input_name" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/bkmk_url" />
+				<EditText android:id="@+id/bkmk_input_url" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+
+			<!--<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<TextView android:layout_width="fill_parent"
+					android:layout_height="fill_parent" android:gravity="center_vertical"
+					android:textSize="18sp" android:text="@string/bkmk_note" />
+				<EditText android:id="@+id/bkmk_input_note" android:lines="1"
+					android:text="" android:textSize="18sp" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" />
+			</LinearLayout>-->
+			
+
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_marginTop="20px" android:layout_height="wrap_content"
+				android:orientation="horizontal" android:gravity="right">
+				<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/bkmk_button_gen_from_user_label"
+					android:layout_marginRight="20px" android:id="@+id/bkmk_gen_from_user_button" />
+				<Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/bkmk_button_gen_label"
+					android:layout_marginRight="20px" android:id="@+id/bkmk_gen_button" />
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
